@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\salle\\Documents\\powershell scripts\\ARCodeSpace\\MegaUpload\\MegaUpload\\MegaUpload.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\salle\\Documents\\powershell scripts\\ARCodeSpace\\MegaUpload\\MegaUpload\\MegaUpload.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\salle\\Documents\\powershell scripts\\ARCodeSpace\\MegaUpload\\MegaUpload\\MegaUpload.csproj",
+        "projectName": "MegaUpload",
+        "projectPath": "C:\\Users\\salle\\Documents\\powershell scripts\\ARCodeSpace\\MegaUpload\\MegaUpload\\MegaUpload.csproj",
+        "packagesPath": "C:\\Users\\salle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salle\\Documents\\powershell scripts\\ARCodeSpace\\MegaUpload\\MegaUpload\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\salle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\salle\\.nuget\\packages": {},
+          "C:\\Users\\salle\\Desktop\\WatsonDedupe\\DedupeLibrary\\bin\\Release": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MegaApiClient": {
+              "target": "Package",
+              "version": "[1.10.3, )"
+            },
+            "System.CommandLine.DragonFruit": {
+              "target": "Package",
+              "version": "[0.4.0-alpha.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
